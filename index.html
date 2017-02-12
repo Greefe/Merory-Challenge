@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type">
+    <title>Memory Challenge</title>
+    <script src="./js/global.js"></script>
+    <script src="./js/base.js"></script>
+    <style type="text/css">
+        @import url('css/base.css');
+    </style>
+</head>
+
+<body>
+    <!--游戏界面-->
+    <div id="gameContent">
+        <strong id="score"></strong>
+        <!--分数+=100*combo-->
+        <strong id="success">0</strong>
+        <!--成功次数-->
+        <strong id="mission">0</strong>
+        <!--过关所需要的成功次数-->
+        <strong id="combo">0</strong>
+        <!--连续成功次数，失败一次将会重置为0-->
+        <strong id="leftProgress"><img src="images/progress.jpg" alt="progress"></strong>
+        <a href="" id="resetButton">Restart</a>
+        <div id="tablePos">
+            <table id="gameTable"></table>
+        </div>
+    </div>
+    <!--开始界面-->
+    <div id="welcomeDiv">
+        <h1 id="header">Memory Challenge</h1>
+        <a href="#" id="startButton">Start</a>
+    </div>
+    <!--加载条-->
+    <div id="loading">Loading... <img id="progress" src="./images/progress.jpg" alt="Loadding"></div>
+</body>
+
+</html>

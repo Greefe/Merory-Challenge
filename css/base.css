@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    background: #20377a;
+    cursor: url(../images/arrow.cur), default;
+}
+
+a {
+    cursor: url(../images/arrow.cur), default;
+}
+
+#loading {
+    background: url("../images/loading.jpg") no-repeat center;
+    width: 720px;
+    height: 603px;
+    margin: 0 auto;
+    text-align: left;
+    text-indent: 600px;
+    line-height: 300%;
+    color: white;
+    position: relative;
+}
+
+#loading #progress {
+    width: 20px;
+    height: 19px;
+    position: absolute;
+    left: 246px;
+    top: 291px;
+}
+
+#welcomeDiv {
+    width: 550px;
+    height: 450px;
+    background: url("../images/welcome.jpg") no-repeat center;
+    margin: 80px auto;
+    position: relative;
+}
+
+#header {
+    text-align: center;
+    color: #213A7C;
+    font-weight: bold;
+    width: 400px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 28px;
+    position: absolute;
+    font-family: "黑体";
+    left: 50%;
+    margin-left: -180px;
+    top: 130px;
+}
+
+#startButton {
+    display: block;
+    width: 128px;
+    height: 45px;
+    line-height: 45px;
+    background: url("../images/start1.jpg") no-repeat center;
+    position: absolute;
+    left: 42%;
+    top: -200px;
+    text-align: center;
+    text-decoration: none;
+    color: transparent;
+}
+
+#startButton:hover {
+    background-image: url("../images/start2.jpg");
+}
+
+#welcomeDiv,
+#welcomeDiv * {
+    display: none;
+}
+
+#gameContent {
+    width: 550px;
+    height: 450px;
+    margin: 100px auto;
+    position: relative;
+    display: none;
+    background: url("../images/gameAreaBg.jpg") no-repeat center;
+}
+
+#gameContent strong {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "幼圆";
+    color: orange;
+    display: block;
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    left: 410px;
+}
+
+#gameContent #score {
+    top: 245px;
+}
+
+#gameContent #success {
+    top: 302px;
+}
+
+#gameContent #mission {
+    top: 349px;
+}
+
+#gameContent #combo {
+    left: 470px;
+    top: 385px;
+}
+
+#gameContent #tablePos {
+    position: absolute;
+    position: relative;
+    left: 24px;
+    top: 58px;
+    width: 308px;
+    height: 310px;
+}
+
+#gameContent #gameTable {
+    width: 308px;
+    height: auto;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#gameContent #gameTable td {
+    width: 42px;
+    height: 42px;
+}
+
+#gameContent #gameTable img {
+    display: block;
+    margin: 0 auto;
+    cursor: url(../images/arrow.cur), default;
+}
+
+#gameContent #leftProgress {
+    left: 36px;
+    top: 397px;
+}
+
+#gameContent #leftProgress img {
+    width: 280px;
+    height: 16px;
+}
+
+#restartButton {
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    right: -50px;
+    text-decoration: underline;
+    bottom: 10px;
+    display: none;
+}
